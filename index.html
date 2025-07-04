@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>謝謝你們</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+  <div class="card-wrapper">
+
+    <main class="thank-card">
+      <h1>謝謝你們的照顧</h1>
+      <p>大家好，</p>
+      <p>這些時間承蒙大家的照顧了。我一直視服兵役是一個增加人生體驗的機會，
+        而這幾個月的時間我也很榮幸得以協助非常多的重要活動，
+        如：校慶、優良學生競選、母親節活動、三好校園與畢業典禮，獲得了很多寶貴的回憶，我也藉著這個機會持續的觀察、紀錄並寫下自己的所見所聞與感動。
+      </p>
+      <p>
+        這裡的學生不會因為自己的特殊而被放棄，
+        反而老師們都願意努力與學生們一同找尋人生的意義與目的。
+        坦白說，作為一個在體制內走的順遂的人來說，
+        我一直會因為自己只要做自己就能接受到社會大部分的善意而感到慚愧，
+        因為很多人僅僅只是因為不擅長念書就喪失了許多機會，
+        但在這邊所有學生都接觸到了更加適性的教育，而有機會一展長才與社會接軌。
+      </p>
+      <p>
+        第一線的教育著實是一份神聖的工作，
+        我覺得我能夠參與其中真的是平常有燒好香。
+        我想再次感謝大家，不單單只是我在處室內過得很滋潤，
+        更因為我認為從事教育不簡單，甚至很常被莫名其妙刁難，
+        但是各位還是撐下來了，這得要燃去多大的熱忱呀。
+      </p>
+      <p>祝福大家未來順利、健康、平安。</p>
+      <p>
+        替代役 廷宇 7/23  
+      </p>
+      <a href="handover.html" class="btn">👉 交接資訊請點我</a>
+    </main>
+
+    <!-- 合照輪播區 -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="photos/photo1.jpg" alt="合照1"></div>
+        <div class="swiper-slide"><img src="photos/photo2.jpg" alt="合照2"></div>
+        <!-- 可再增加 -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

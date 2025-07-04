@@ -1,0 +1,136 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #f6f5f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main.card {
+  max-width: 800px;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1e3d59;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+a.btn {
+  display: inline-block;
+  background-color: #406882;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #274f72;
+}
+
+/* Swiper */
+.swiper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* details 區塊（用於交接頁面） */
+details {
+  background-color: #e9edf0;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #1e3d59;
+}
+
+@media (max-width: 600px) {
+  main.card {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+body {
+  background: linear-gradient(to bottom, #f6f3e9, #e4e0d8);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+main.thank-card {
+  background-color: #fffef9;
+  border: 2px solid #dcd5c3;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+main.thank-card h1 {
+  font-family: 'Noto Sans TC', cursive;
+  font-size: 2rem;
+  color: #5a4637;
+  margin-bottom: 1rem;
+}
+
+main.thank-card p {
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  line-height: 1.8;
+  text-align: left;     /* ✅ 左對齊 */
+  text-indent: 2em;
+  padding-left: 0.5rem; /* ✅ 微微內縮，像紙上寫字 */
+}
+
+main.thank-card p + p {
+  margin-top: 1.2rem;
+}
+
+a.btn {
+  margin-top: 1.5rem;
+}
