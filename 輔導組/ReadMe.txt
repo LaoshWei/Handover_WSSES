@@ -5,3 +5,5 @@ https://www.canva.com/design/DAGntecjFJY/Jmou6hl4W-aa7FRpHw5h3g/edit?utm_content
 https://www.canva.com/design/DAGp6IxTe5c/abjIoEqh65kazdzS8VO46A/edit?utm_content=DAGp6IxTe5c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 3. 線上研討會EDM
 https://www.canva.com/design/DAGne6eqh3o/vqifr8U03mEYbVj9WaVOmQ/edit?utm_content=DAGne6eqh3o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+集點冊_V3 是 三好校園活動中給學生集點兌獎用的
