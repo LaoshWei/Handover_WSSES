@@ -41,7 +41,7 @@
 
     <!-- 合照輪播區 -->
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper" id="photo-wrapper">
         <!-- <div class="swiper-slide"><img src="photos\LINE_ALBUM_114.05.03轉動愛與關懷法輪-打擊樂社團表演（228和平公園露天音樂台）_250716_1.jpg" alt="合照1"></div>
         <div class="swiper-slide"><img src="photos\LINE_ALBUM_20250630歡送翠芳_250716_1.jpg" alt="合照2"></div>
         <div class="swiper-slide"><img src="photos\LINE_ALBUM_20250630歡送翠芳_250716_2.jpg" alt="合照2"></div>
@@ -65,7 +65,7 @@
         slide.innerHTML = `<img src="photos/${img}" alt="照片">`;
         wrapper.appendChild(slide);
       });
-
+      console.log("1111");
       new Swiper('.mySwiper', {
         loop: true,
         autoplay: {
